@@ -1,0 +1,20 @@
+# Ignore the Hugging Face cache (where model weights live)
+hf_cache/
+
+# --- Python Environment & Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+env/
+
+# --- Logs and System Files ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Delta/HPC Specific ---
+# Ignore SLURM output files (job logs)
+slurm-*.out
